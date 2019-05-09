@@ -6,28 +6,10 @@ import * as serviceWorker from "./serviceWorker";
 
 ReactDOM.render(<App />, document.getElementById("root"));
 
-const user = {
-  firstName: "Mohanrasu",
-  lastName: "Govindan"
-};
-
 const MyComponent = () => {
   return <h2> Way to go, you just created a MyComponent!</h2>;
 };
 
-function arrayPlay() {
-  var array1 = [[1, 4], [9, 16], [25, 36]];
-  const map1 = array1.map(inner => inner.map(x => ({ x, root: Math.sqrt(x) })));
-
-  return <ul>{map1}</ul>;
-}
-
-function getGreeting(user) {
-  if (user) {
-    return <h1>{arrayPlay()}</h1>;
-  }
-  return <h1>Hello, Stranger</h1>;
-}
 
 function Message(props) {
   return <h1> Good to have you back, {props.username}</h1>;
