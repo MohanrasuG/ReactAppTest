@@ -127,7 +127,7 @@ class Counter extends React.Component {
 // }
 
 //setInterval(tick,1000);
-const element = <h1>Happy New Year, {getGreeting(user)}</h1>;
+//const element = <h1>Happy New Year, {getGreeting(user)}</h1>;
 
 //ReactDOM.render(element, document.getElementById("root1"));
 
